@@ -4,18 +4,19 @@
 
 ### Contexte :
 
-Chaque observation est un exemple d'une main regroupant 5 cartes tirées d'un paquets de carte standard de 52 cartes.
-Chaque carte est décrit suivant 2 attributs : sa suite et son rang. On a donc 10 attributs/variables concernant la main et une autre variable/target qui décrit le main complète.
+Le Poker Hand Dataset est décrit comme un dataset difficile pour la classification multi-classes.
+
+Chaque observation représente une “main” au poker contenant 5 cartes issus d’un paquet de 52 cartes standard. Chaque carte est décrite suivant sa suite et son rang.
 
 ### Objectif :
 
-Prédire le type de main d'un joueur en connaissant ses cartes.
+La cible à prédire est le type de “main” d’un joueur (observations) suivant l’analyse de ses cartes.
 
 ### Répartition des données : 
 
-25010 en training et 1,000,000 en testing
+25010 données d'entrainement et 1,000,000 données de test
 
-10 variables et 1 classe target
+10 variables et 1 classe target (cible)
 
 ### Informations sur les variables
 
